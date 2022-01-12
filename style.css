@@ -1,0 +1,99 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto; 
+}
+
+body{
+    font-family: 'poppins' sans-serif; 
+}
+.header-content-logos ul{
+    display: flex; 
+    list-style: none;
+}
+
+.main-header {
+    background-color: #DCEAF5;
+}
+
+#nav-link {
+    color: #F58A07; 
+    text-decoration: none;
+    border: solid 1px white;
+    background-color: rgb(245, 238, 227);
+    border-radius: 20px; 
+    padding: 10px 20px 10px 20px; 
+}
+
+button.btn.btn-primary {
+    background-color: orange;
+    border-radius: 20px;
+    border: orange; 
+}
+
+button.btn.btn-light {
+    background-color: #DCEAF5 ; 
+    border:rgb(245, 238, 227); 
+}
+
+.header-content-logos ul{
+    padding: 0; 
+}
+
+.section-services {
+    margin-top: 80px; 
+}
+
+.section-content-body {
+    margin-top: 30px;
+}
+
+.section-thumbnails {
+    margin-top: 30px;
+}
+
+.section-thumbnails img{
+    border-radius: 20px;
+}
+
+.section-solution {
+    margin-top: 100px;
+    background-color: #DCEAF5; 
+}
+
+.section-solution img {
+    width: 30px; 
+}
+.section-solution .card {
+    border-radius: 20px;
+}
+.section-solution h1{
+    margin-top: 50px;
+}
+.section-solution p{
+    margin-top: 50px;
+}
+a.btn.btn-primary {
+    color: #F58A07; 
+    background-color: white; 
+    border: none; 
+}
+.card {
+    border: none; 
+    width: 300px; 
+}
+
+.section-solution .card {
+    padding: 32px; 
+    margin-top: 32px; 
+}
+
+.section-experience {
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+
+.section-content-body {
+    display: inline; 
+}
+
+
