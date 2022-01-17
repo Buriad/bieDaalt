@@ -80,11 +80,17 @@ button.btn.btn-light {
 
 .section-thumbnails .row{
     margin: 0px 0px 0px 0px; 
+    padding: 0; 
 }
+/* Section-Solution */
 
 .section-solution {
     margin-top: 100px;
     background-color: #DCEAF5; 
+}
+
+.section-solution-cards{
+    margin-bottom: 100px;
 }
 
 .section-solution img {
@@ -111,6 +117,7 @@ a.btn.btn-primary {
 .section-solution .card {
     padding: 32px; 
     margin-top: 32px; 
+    margin-bottom: 50px;
 }
 
 /* section-experience */
@@ -141,6 +148,28 @@ a.btn.btn-primary {
 
 /* section-start-up */
 
+.section-start-up{
+    background: #F58A07;
+    color: white;
+    padding: 0;
+
+}
+
+.section-start-up .start-up-content{
+    padding: 150px 20vh 150px 0; 
+}
+
+.section-startup .start-up-content h2{
+    font-size: 56px;
+}
+
+.experience-image{
+    background-image: url('/images/experience-image.png');
+    width: 100%;
+    height: 100%; 
+    background-size: cover;
+    margin-left: -1rem; 
+}
 /* .section-start-up .img{ */
     /* width: 50%;  */
 
@@ -172,6 +201,10 @@ footer .row .col-4 a{
     display: flex; 
 }
 
-footer .col-4{
-
+footer h2{
+    color: white; 
 }
+small {
+    font-size: .7em
+}
+

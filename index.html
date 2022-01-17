@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100;1,400&display=swap" rel="stylesheet">
     <title>bieDaalt</title>
 </head>
 <body>
@@ -22,12 +21,12 @@
           <div>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" href="#">About Us</a>
-                  <a class="nav-link" href="#">Careers</a>
-                  <a class="nav-link" href="#">Services</a>
-                  <a class="nav-link" href="#">Blog</a>
-                  <a class="nav-link" href="#">Contact Us</a>
-                  <a id="nav-link" href="#">Clone project</a>
+                  <a class="nav-link" href="http://127.0.0.1:5502/index.html" target="_blank">About Us</a>
+                  <a class="nav-link" href="http://127.0.0.1:5503/index.html" target="_blank">Careers</a>
+                  <a class="nav-link" href="http://127.0.0.1:5504/index.html" target="_blank">Services</a>
+                  <a class="nav-link" href="http://127.0.0.1:5505/index.html" target="_blank">Blog</a>
+                  <a class="nav-link" href="http://127.0.0.1:5506/index.html" target="_blank">Contact Us</a>
+                  <a id="nav-link" href="#">Clone project</a> 
                 </div>
             </div>
           </div>
@@ -122,20 +121,20 @@
       </div>
           
       <div class="section-solution">
-          <div class="container">
-            <div class="row justify-content-between">
-              <div class="col-6">
-                <h1>We are building software solution that solves your business challenges</h1>
-              </div>
-              <div class="col-6">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquam inventore alias repellat molestias hic unde. Porro eum quasi illo excepturi consequuntur, repudiandae, doloribus distinctio omnis, quia odit tempore repellat.</p>
-              </div>
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-6">
+              <h1>We are building software solution that solves your business challenges</h1>
+            </div>
+            <div class="col-6">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia aliquam inventore alias repellat molestias hic unde. Porro eum quasi illo excepturi consequuntur, repudiandae, doloribus distinctio omnis, quia odit tempore repellat.</p>
             </div>
           </div>
-        </span>
-        <div class="container">
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-4">
+        </div>
+        <div class="section-solution-card">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 col-md-6 col-lg-4">
               <div class="card">
                 <img src="/images/Icon-layer.png" class="card-img-top" alt="layer">
                 <div class="card-body">
@@ -143,7 +142,7 @@
                   <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, provident illum. Cupiditate nihil qui asperiores.</p>
                 </div>
               </div>
-            </div>
+              </div>
               <div class="col-12 col-md-6 col-lg-4">
                 <div class="card">
                   <img src="/images/Icon-wizard.png" class="card-img-top" alt="wizard">
@@ -162,6 +161,7 @@
                   </div>
                 </div>
               </div>
+            </div>
           </div>
         </div>
       </div>
@@ -234,17 +234,19 @@
         <div class="container-fluid">
           <div class="row">
             <div class="col-6">
-              <img src="/images/experience-image.png" alt="experience">
+              <div class="experience-image"></div>
             </div>
             <div class="col-6">
-              <h1>Energy of a start-up <br>
-                combined with 30 <br>
-                years of experience.</h1>
-                <a href="#" class="btn btn-primary">See Job Vacancies</a>
+              <div class="start-up-content">
+                <h2>Energy of a start-up <br>
+                  combined with 30 <br>
+                  years of experience.</h2>
+                  <a href="#" class="btn btn-primary">See Job Vacancies</a>
+              </div>
             </div>
           </div>
         </div>
-
+      </div>
         <div class="section-dream">
           <div class="container">
             <div class="row">
@@ -315,11 +317,17 @@
 
     <footer>
       <div class="container">
-        <div class="row align-items-center">
+        <div class="row">
           <div class="col-6">
-          <h2>{finsweet</h2>
-            <h1>Bespoke software <br>
-              solutions</h1>
+          <h3>{finsweet</h3>
+            <br>
+            <br>
+            <h2>Bespoke software <br>
+              solutions</h2>
+            <br>
+            <br>
+            <br>
+            <p><small>&copy; All rights reserved-Finsweet</small></p>
           
           </div>
           <div class="col-6">
@@ -332,9 +340,12 @@
                     <a href="#" class="btn btn-primary">Blog</a>
               </div>
               <div class="col-4">
-                    <h3>Connect</h3>
-                    <a href="#" class="btn btn-primary">hi@finsweet.com</a>
-                    <a href="#" class="btn btn-primary">+(123) 456-7890</a>
+                    <h3>Contact</h3>
+                    <address>
+                      <a href="tel:+1234567890">(123) 456-7890</a><br>
+                      <a href="mailto:info@fin.sweet">info@fin.sweet</a>
+                      
+                    </address>
               </div>
               <div class="col-4">
                     <h3>Join Newsletter</h3>
